@@ -24,6 +24,8 @@ public class RingtonePlayingService extends Service {
     MediaPlayer media_song;
     int startId;
     boolean isRunning ;
+    Context context;
+    Notification myNotification;
 
     @Nullable
     @Override
@@ -67,21 +69,27 @@ public class RingtonePlayingService extends Service {
             this.isRunning = true;
             this.startId= 0;
 
-            NotificationManager notify_manager = (NotificationManager)
+            /*Notification n = new Notification(R.drawable.common_google_signin_btn_icon_dark, "alarm", System.currentTimeMillis());
+            PendingIntent pi = PendingIntent.getActivity(context, 0, new Intent(), 0);
+            n.setLatestEventInfo()*/
+
+           NotificationManager notify_manager = (NotificationManager)this.
                     getSystemService(NOTIFICATION_SERVICE);
             Intent intent_main_activity = new Intent(this.getApplicationContext(), Reminder.class);
 
             PendingIntent pending_intent_main_activity = PendingIntent.getActivity(this, 0,
                     intent_main_activity, 0);
 
-            Notification notification_popup = new Notification.Builder(this)
-                    .setContentTitle("An alarm is going off!")
-                    .setContentText("Click Me!")
-                    .setContentIntent(pending_intent_main_activity)
-                    .setAutoCancel(true)
-                    .build();
+            Notification.Builder notification_popup = new Notification.Builder(this);
+                    notification_popup.setContentTitle("An alarm is going off!");
+                    notification_popup.setContentText("Click Me!");
+                    notification_popup.setContentIntent(pending_intent_main_activity);
+                    notification_popup.setAutoCancel(true);
+                    notification_popup.build();
 
-            notify_manager.notify(0, notification_popup);
+            myNotification = notification_popup.getNotification();
+
+            notify_manager.notify(0, myNotification);
 
 
         }

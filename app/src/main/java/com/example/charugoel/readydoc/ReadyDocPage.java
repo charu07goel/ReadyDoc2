@@ -40,7 +40,7 @@ public class ReadyDocPage extends AppCompatActivity implements View.OnClickListe
         lay3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent toy7 = new Intent(ReadyDocPage.this, Reminder.class);
+                Intent toy7 = new Intent(ReadyDocPage.this, MainActivity.class);
                 startActivity(toy7);
             }
         });

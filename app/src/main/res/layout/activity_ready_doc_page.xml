@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#def9b7"
     tools:context="com.example.charugoel.readydoc.ReadyDoc2"
     tools:layout_editor_absoluteY="81dp">
 
@@ -157,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
+            android:background="#024303"
             android:text="LOGOUT"
             android:textColor="#000" />
     </LinearLayout>

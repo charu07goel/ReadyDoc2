@@ -5,21 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.charugoel.readydoc.First">
+    tools:context="com.example.charugoel.readydoc.First"
+    android:background="#def9b7">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="150dp"
         android:text="READYDOC"
         android:textAlignment="center"
         android:textColor="#000"
-        android:textSize="50dp" />
+        android:textSize="50dp" tools:targetApi="lollipop"/>
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="ARE YOU :"
@@ -40,7 +44,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
             android:text="DOCTOR"
+            android:background="#024303"
             android:textAlignment="center"
             android:textSize="20dp" />
 
@@ -49,8 +55,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textColor="#ffffff"
             android:layout_marginTop="20dp"
             android:text="Patient"
+            android:background="#024303"
             android:textAlignment="center"
             android:textSize="20dp" />
     </LinearLayout>

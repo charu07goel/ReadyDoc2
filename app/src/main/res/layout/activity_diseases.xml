@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#def9b7"
     android:orientation="vertical"
     tools:context="com.example.charugoel.readydoc.Diseases"
     tools:layout_editor_absoluteY="25dp">
@@ -21,6 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#000"
         android:text="1. Physician"
         android:textSize="20dp"
         android:layout_marginTop="70dp"
@@ -31,6 +33,7 @@
         android:layout_height="wrap_content"
         android:text="2. Gynaecologist"
         android:textSize="20dp"
+        android:textColor="#000"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="10dp"
         />
@@ -39,6 +42,7 @@
         android:layout_height="wrap_content"
         android:text="3. ENT"
         android:textSize="20dp"
+        android:textColor="#000"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="10dp"
         />
@@ -46,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="4. Dentist"
+        android:textColor="#000"
         android:textSize="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="10dp"
@@ -54,6 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="5. Dermatologist"
+        android:textColor="#000"
         android:textSize="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="10dp"

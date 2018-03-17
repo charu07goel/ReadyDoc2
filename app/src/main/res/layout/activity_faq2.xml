@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#def9b7"
     tools:context="com.example.charugoel.readydoc.FAQ2">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:layout_marginTop="16dp"
+        android:textColor="#000"
         android:text="Answer2"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView22"
@@ -24,6 +26,7 @@
         android:layout_width="332dp"
         android:layout_height="0dp"
         android:layout_marginBottom="150dp"
+        android:textColor="#000"
         android:text="Following basic actions can be used to avoid typhoid fever:  Avoid eating risky foods and drinks. Getting vaccinated against typhoid fever. Buy bottled water or boil it before drinking. Ask for drinks without ice unless the ice is made from bottled or boiled water. Avoid raw vegetables and fruits that cannot be peeled. Vegetables like lettuce are easily contaminated and are very hard to wash well. Foods and beverages from street vendors should be avoided."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

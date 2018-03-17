@@ -34,6 +34,7 @@ public class DoctorLogin extends AppCompatActivity {
         });
     }
 
+
     @Override
     public void onBackPressed(){
         startActivity(new Intent(DoctorLogin.this, First.class));
@@ -42,6 +43,8 @@ public class DoctorLogin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_doctor_login);
 
         mAuth=FirebaseAuth.getInstance();

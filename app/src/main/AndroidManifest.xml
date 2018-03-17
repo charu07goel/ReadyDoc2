@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.charugoel.readydoc">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -58,13 +59,18 @@
         <activity android:name=".Department" />
         <activity android:name=".account" />
         <activity android:name=".physician" />
-        <activity android:name=".DoctorMain"></activity>
+        <activity android:name=".DoctorMain" />
 
-        <receiver android:name=".AlarmReceiver"/>
-        <service android:name=".RingtonePlayingService"
-            android:enabled="true">
-        </service>
+        <receiver android:name=".AlarmReceiver" />
 
-    </application>
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true" />
+
+        <activity android:name=".EditActivity" />
+        <activity android:name=".MainActivity"></activity>
+
+           </application>
+
 
 </manifest>

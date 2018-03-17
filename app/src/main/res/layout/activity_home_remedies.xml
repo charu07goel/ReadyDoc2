@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#def9b7"
     tools:context="com.example.charugoel.readydoc.HomeRemedies">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginTop="16dp"
         android:text="HOME REMEDIES"
-        android:textColor="@android:color/background_dark"
+        android:textColor="#000"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,6 +46,7 @@
 
                 <TextView
                     android:id="@+id/textView37"
+                    android:textColor="#000"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Fever Bath Taking a bath in lukewarm water helps reduce fever gradually and safely, according to Alexa Fleckenstein in her book “Health20.” At the height of the fever, immerse your body in a tub filled with water about 2 degrees cooler than your body temperature. Slowly add cooler water to the bath, which lowers the body temperature. Conclude the bath after about 20 minutes, or whenever you begin to feel cold. Dry off with a towel, quickly return to bed and cover yourself with blankets. Sweating should begin, which is the desired effect after a fever bath. The body temperature will lower by about 2 degrees. Repeat no more than once a day, preferably in the afternoon, until the fever subsides. Don't use this treatment if you have a fever that's still rising."

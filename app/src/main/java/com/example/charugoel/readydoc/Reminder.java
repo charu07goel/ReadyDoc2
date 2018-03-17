@@ -21,6 +21,28 @@ public class Reminder extends AppCompatActivity {
     TextView update_text;
     Context context = this;
     PendingIntent pending_intent;
+    Button but1,but;
+
+    public void init() {
+        but1 = findViewById(R.id.alarm_on);
+        but1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toy3 = new Intent(Reminder.this, EditActivity.class);
+                startActivity(toy3);
+            }
+        });
+    }
+    public void init2(){
+        but = findViewById(R.id.button_cancel);
+        but.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toy4 = new Intent(Reminder.this, MainActivity.class);
+                startActivity(toy4);
+            }
+        });
+    }
 
     //   private TextView mTextView;
 
@@ -28,21 +50,18 @@ public class Reminder extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reminder);
-        //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-        //this.context = this;
 
         alarm_manager = (AlarmManager) getSystemService(ALARM_SERVICE);
         alarm_timepicker = findViewById(R.id.timePicker);
         update_text =  findViewById(R.id.update_text);
 
-        // mTextView= findViewById(R.id.textView);
 
         final Calendar calendar = Calendar.getInstance();
 
         Button alarm_on = findViewById(R.id.alarm_on);
 
         final Intent my_intent=new Intent(this.context,AlarmReceiver.class);
+
 
         alarm_on.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,9 +84,14 @@ public class Reminder extends AppCompatActivity {
                         PendingIntent.FLAG_UPDATE_CURRENT);
 
                 alarm_manager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pending_intent);
+
+                init();
+
             }
 
         });
+
+
 
         // Intent myIntent = new Intent(context, Reminder.class);
         //startActivity(myIntent);
@@ -83,6 +107,7 @@ public class Reminder extends AppCompatActivity {
                 my_intent.putExtra("extra", "alarm off");
 
                 sendBroadcast(my_intent);
+                init2();
             }
         });
 

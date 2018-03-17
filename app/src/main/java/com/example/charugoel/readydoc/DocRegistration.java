@@ -103,24 +103,36 @@ public class DocRegistration extends AppCompatActivity {
                 else {
                     if(spe=="Phy") {
                         mRef = new Firebase("https://readydoc-5f9eb.firebaseio.com/Phy");
-                    }
-                    else
-                    {
-                        mRef=new Firebase("https://readydoc-5f9eb.firebaseio.com/");
-                    }
-                    HashMap<String,String> data=new HashMap<String, String>();
-                    data.put("Name",name);
-                    data.put("Qualification",qual);
-                    data.put("Specialisation",spe);
-                    data.put("Phone",phone);
-                    data.put("Email",email);
-                    data.put("City",city);
-                    data.put("Password", passw);
-                    //Firebase mRefChild = mRef.child("Name");
-                    // mRefChild.setValue("Aksha");
-                    mRef.push().setValue(data);
-                firebaseAuth.createUserWithEmailAndPassword(email,passw);
 
+                        HashMap<String,String> data=new HashMap<String, String>();
+                        data.put("Name",name);
+                        data.put("Qualification",qual);
+                        data.put("Specialisation",spe);
+                        data.put("Phone",phone);
+                        data.put("Email",email);
+                        data.put("City",city);
+                        data.put("Password", passw);
+                        //Firebase mRefChild = mRef.child("Name");
+                        // mRefChild.setValue("Aksha");
+                        mRef.push().setValue(data);
+                        firebaseAuth.createUserWithEmailAndPassword(email,passw);
+                    }
+                    else {
+                        mRef = new Firebase("https://readydoc-5f9eb.firebaseio.com/");
+
+                        HashMap<String, String> data = new HashMap<String, String>();
+                        data.put("Name", name);
+                        data.put("Qualification", qual);
+                        data.put("Specialisation", spe);
+                        data.put("Phone", phone);
+                        data.put("Email", email);
+                        data.put("City", city);
+                        data.put("Password", passw);
+                        //Firebase mRefChild = mRef.child("Name");
+                        // mRefChild.setValue("Aksha");
+                        mRef.push().setValue(data);
+                        firebaseAuth.createUserWithEmailAndPassword(email, passw);
+                    }
                 }
             }
         });
