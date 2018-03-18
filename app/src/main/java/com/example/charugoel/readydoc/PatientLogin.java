@@ -2,6 +2,7 @@ package com.example.charugoel.readydoc;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -35,7 +36,7 @@ public class PatientLogin extends AppCompatActivity {
 
             }
         });
-      /*  but4 = (Button) findViewById(R.id.button6);
+       /*but4 = (Button) findViewById(R.id.button6);
         but4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,6 +54,11 @@ public class PatientLogin extends AppCompatActivity {
         @Override
         protected void onCreate (Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
+            ActionBar ab= getSupportActionBar();
+            ab.setLogo(R.drawable.logo2);
+            ab.setDisplayShowHomeEnabled(true);
+            ab.setDisplayShowTitleEnabled(false);
+            ab.setDisplayUseLogoEnabled(true);
             setContentView(R.layout.activity_patient_login);
 
             mAuth=FirebaseAuth.getInstance();

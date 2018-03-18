@@ -50,7 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Fever Bath Taking a bath in lukewarm water helps reduce fever gradually and safely, according to Alexa Fleckenstein in her book “Health20.” At the height of the fever, immerse your body in a tub filled with water about 2 degrees cooler than your body temperature. Slowly add cooler water to the bath, which lowers the body temperature. Conclude the bath after about 20 minutes, or whenever you begin to feel cold. Dry off with a towel, quickly return to bed and cover yourself with blankets. Sweating should begin, which is the desired effect after a fever bath. The body temperature will lower by about 2 degrees. Repeat no more than once a day, preferably in the afternoon, until the fever subsides. Don't use this treatment if you have a fever that's still rising."
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
         </ScrollView>
 

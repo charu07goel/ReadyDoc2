@@ -16,7 +16,8 @@
             android:text="LOGIN AS PATIENT"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="30sp"
+            android:fontFamily="@font/amaranth"
+            android:textSize="40sp"
              />
 
 

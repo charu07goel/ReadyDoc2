@@ -13,12 +13,12 @@
         android:id="@+id/textView31"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DEPARTMENT"
-        android:textSize="30dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="DEPARTMENT"
         android:textAlignment="center"
         android:textColor="#000"
-        />
+        android:textSize="50dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -5,6 +5,7 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -49,6 +50,11 @@ public class Reminder extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActionBar ab= getSupportActionBar();
+        ab.setLogo(R.drawable.logo2);
+        ab.setDisplayShowHomeEnabled(true);
+        ab.setDisplayShowTitleEnabled(false);
+        ab.setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_reminder);
 
         alarm_manager = (AlarmManager) getSystemService(ALARM_SERVICE);

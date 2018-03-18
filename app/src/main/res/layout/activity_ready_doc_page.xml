@@ -15,7 +15,7 @@
         android:layout_marginBottom="18dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="25dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

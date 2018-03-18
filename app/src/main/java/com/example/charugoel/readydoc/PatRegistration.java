@@ -2,6 +2,7 @@ package com.example.charugoel.readydoc;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.widget.Button;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,11 @@ public class PatRegistration extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActionBar ab= getSupportActionBar();
+        ab.setLogo(R.drawable.logo2);
+        ab.setDisplayShowHomeEnabled(true);
+        ab.setDisplayShowTitleEnabled(false);
+        ab.setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_pat_registration);
         init();
     }
