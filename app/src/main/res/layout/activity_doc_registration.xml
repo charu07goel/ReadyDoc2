@@ -26,9 +26,9 @@
                 android:layout_width="294dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/aclonica"
                 android:text="REGISTRATION"
                 android:textAlignment="center"
-                android:fontFamily="@font/amaranth"
                 android:textColor="@android:color/black"
                 android:textSize="45sp" />
         </LinearLayout>

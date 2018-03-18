@@ -9,16 +9,15 @@
     tools:layout_editor_absoluteY="81dp" android:orientation="vertical">
 
     <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="LOGIN AS PATIENT"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:fontFamily="@font/amaranth"
-            android:textSize="40sp"
-             />
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/aclonica"
+        android:text="LOGIN AS PATIENT"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35dp" />
 
 
     <LinearLayout

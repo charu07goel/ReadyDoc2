@@ -27,10 +27,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/amaranth"
+                android:fontFamily="@font/aclonica"
                 android:text="FREQUENTLY ASKED QUESTIONS"
                 android:textColor="#000"
-                android:textSize="27sp" />
+                android:textSize="25dp" />
         </LinearLayout>
 
         <LinearLayout
