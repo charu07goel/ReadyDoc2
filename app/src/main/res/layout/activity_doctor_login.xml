@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.charugoel.readydoc.DoctorLogin" android:orientation="vertical"
-    android:background="#def9b7">
+    android:background="#e2f5d6">
 
     <TextView
         android:id="@+id/textView3"
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:background="#024303"
+            android:background="#397c3d"
             android:textColor="#ffffff"
             android:text="LOGIN"/>
 
@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="#024303"
+            android:background="#397c3d"
             android:textColor="#ffffff"
             android:text="SIGN UP" />
 

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#def9b7"
+    android:background="#e2f5d6"
     android:layout_height="match_parent"
     tools:context="com.example.charugoel.readydoc.PatientLogin"
     tools:layout_editor_absoluteY="81dp" android:orientation="vertical">
@@ -88,7 +88,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#024303"
+            android:background="#397c3d"
             android:textColor="#ffffff"
             android:layout_marginTop="30dp"
             android:text="LOGIN" />
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="#024303"
+            android:background="#397c3d"
             android:textColor="#ffffff"
             android:text="SIGN UP" />
 

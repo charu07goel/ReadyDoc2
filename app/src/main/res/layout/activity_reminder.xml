@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#def9b7"
+    android:background="#e2f5d6"
     tools:context="com.example.reshugoel.memo.Reminder">
 
 
@@ -15,7 +15,8 @@
         android:layout_marginBottom="9dp"
         android:layout_marginTop="10dp"
         android:clickable="true"
-        android:numbersSelectorColor="#024303"
+        android:headerBackground="#397c3d"
+        android:numbersSelectorColor="#397c3d"
         app:layout_constraintBottom_toTopOf="@+id/alarm_on"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +28,7 @@
         android:layout_marginBottom="17dp"
         android:layout_marginEnd="18dp"
         android:layout_marginStart="28dp"
-        android:background="#024303"
+        android:background="#397c3d"
         android:text="set alarm"
         app:layout_constraintBottom_toTopOf="@+id/update_text"
         app:layout_constraintEnd_toStartOf="@+id/button_cancel"
@@ -41,7 +42,7 @@
         android:layout_marginEnd="38dp"
         android:layout_marginTop="9dp"
         android:text="Cancel Alarm"
-        android:background="#024303"
+        android:background="#397c3d"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/alarm_on"
         app:layout_constraintTop_toBottomOf="@+id/timePicker"

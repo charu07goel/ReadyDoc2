@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#def9b7"
+    android:background="#e2f5d6"
     tools:context="com.example.charugoel.readydoc.PatRegistration">
 
     <TextView
@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:text="SUBMIT"
-        android:background="#024303"
+        android:background="#397c3d"
         android:textColor="#ffffff"
         android:gravity="center"
         app:layout_constraintStart_toStartOf="@+id/editText8"
