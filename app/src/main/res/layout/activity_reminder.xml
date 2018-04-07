@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e2f5d6"
     tools:context="com.example.reshugoel.memo.Reminder">
 
 
@@ -15,8 +14,8 @@
         android:layout_marginBottom="9dp"
         android:layout_marginTop="10dp"
         android:clickable="true"
-        android:headerBackground="#397c3d"
-        android:numbersSelectorColor="#397c3d"
+        android:headerBackground="#311b92"
+        android:numbersSelectorColor="#311b92"
         app:layout_constraintBottom_toTopOf="@+id/alarm_on"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

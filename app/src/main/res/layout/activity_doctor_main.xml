@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#e2f5d6"
     android:layout_height="match_parent"
     tools:context="com.example.charugoel.readydoc.DoctorMain" android:orientation="vertical">
 
