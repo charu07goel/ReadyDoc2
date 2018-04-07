@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#e2f5d6"
-    tools:context="com.example.charugoel.readydoc.account" android:orientation="vertical">
+    tools:context="com.example.charugoel.readydoc.account"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView30"
@@ -77,6 +78,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="#ffffff"
-        android:background="#397c3d"
+        android:background="@drawable/button"
         android:text="LogOut" />
 </LinearLayout>

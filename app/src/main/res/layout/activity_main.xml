@@ -6,6 +6,7 @@
     tools:context=".MainActivity">
 
 
+
     <RelativeLayout
         android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
             android:layout_centerInParent="true"
             android:text="Add"
             android:textColor="#ffffff"
-            android:background="#397c3d"/>
+            android:background="@drawable/button"/>
 
         <View
             android:layout_width="match_parent"

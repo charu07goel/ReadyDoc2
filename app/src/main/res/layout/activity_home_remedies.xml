@@ -7,21 +7,27 @@
     android:background="#e2f5d6"
     tools:context="com.example.charugoel.readydoc.HomeRemedies">
 
-    <TextView
+    <LinearLayout
         android:id="@+id/textView35"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/aclonica"
-        android:text="HOME REMEDIES"
-        android:textColor="#000"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal">
+    <ImageView
+        android:src="@drawable/home"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME REMEDIES"
+            android:layout_marginLeft="5dp"
+            android:textSize="30dp"
+            android:fontFamily="@font/aclonica"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
