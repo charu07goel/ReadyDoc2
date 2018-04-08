@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     tools:context="com.example.charugoel.readydoc.DoctorLogin" android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00000000"
         android:layout_gravity="center"
         android:fontFamily="@font/aclonica"
         android:text="LOGIN AS DOCTOR"
@@ -20,6 +22,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="#00000000"
         android:src="@drawable/doctor"
         android:layout_gravity="center"/>
 
@@ -34,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:background="#00000000"
             android:text="USERNAME:"
             android:textColor="#000"
             android:textSize="18sp" />
@@ -44,7 +47,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:background="#00000000"
             android:hint="Liscence No."
             android:inputType="textPersonName"
             android:layout_gravity="right"/>
@@ -55,14 +58,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#00000000"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
             android:textColor="#000"
             android:text="PASSWORD:"
             android:textSize="18sp" />
@@ -73,7 +76,7 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:background="#00000000"
             android:layout_gravity="right"
             android:inputType="textPassword" />
     </LinearLayout>
@@ -83,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:orientation="vertical">
 
         <Button
