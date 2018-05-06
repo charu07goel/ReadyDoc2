@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ReadyDoc.iml" filepath="$PROJECT_DIR$/ReadyDoc.iml" />
+      <module fileurl="file://C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc2\ReadyDoc.iml" filepath="C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc2\ReadyDoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadyDoc2.iml" filepath="$PROJECT_DIR$/ReadyDoc2.iml" />
       <module fileurl="file://C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc\ReadyDoc2.iml" filepath="C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc\ReadyDoc2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc2\app\app.iml" filepath="C:\Users\Charu Goel\AndroidStudioProjects\ReadyDoc2\app\app.iml" />
     </modules>
   </component>
 </project>

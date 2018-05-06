@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.charugoel.readydoc.PatientLogin"
-    tools:layout_editor_absoluteY="81dp" android:orientation="vertical">
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView6"
